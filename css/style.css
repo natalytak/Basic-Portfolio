@@ -1,5 +1,6 @@
 body {
-    background-image: url("images/tree_bark.png");
+    background-image: url("../images/tree_bark.png");
+    /* background-color: red; */
 }
 
 header {
@@ -8,6 +9,11 @@ header {
 
     body {
         color: #777777;
+    }
+
+    .Me {
+        float: left;
+        overflow: auto;
     }
 
 footer {
