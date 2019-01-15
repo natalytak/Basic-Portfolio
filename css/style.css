@@ -1,21 +1,149 @@
-body {
-    background-image: url("../images/tree_bark.png");
-    /* background-color: red; */
-}
 
+html {
+    width: 960px;
+    font-size: 1.1em;
+}
 header {
-    background-color: #4aaaa5;
+    border: 1px solid #dddddd;
+    display: block;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
 }
 
-    body {
-        color: #777777;
+main {
+    
+    border: 1px solid #dddddd;
+    padding: 15px;
+    background-color: whitesmoke;
+   
+}
+body {
+    color: #777777;
+    display: block;
+    background-image: url("../images/tree_bark.png");
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+    ul {
+        float: right;
+        list-style-type: none;
+        padding-top: 25px;
+        margin-right: 20px; 
     }
 
-    .Me {
+    li {
+        display: inline;
+        background-color: #9a9a9a;
+        padding: 14px 16px;
+        font-weight: bold;
+    }
+
+    li a {
+    
+        text-decoration: none;
+        padding: 14px 16px;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    li:hover {
+        background-color: #757575;
+    }
+
+    #About {
+      margin: 25px;
+        
+    }
+    #Me {
         float: left;
         overflow: auto;
+        padding-right: 15px;
+        border-radius: 150px;
+       
+        
     }
 
-footer {
-    background-color: #666666;
-}
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+     textarea, select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type=submit] {
+        width: 15%;
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=reset] {
+        width: 15%;
+        background-color: #4aaaa5;
+        color: whitesmoke;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      div.gallery {
+          width: 25%;
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+    footer {
+        font-size: 0.7em;
+        background-color: #666666;
+        border-top: 8px solid #4aaaa5;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 0;
+        color: #adadad;
+    }
